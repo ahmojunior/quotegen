@@ -36,3 +36,6 @@ Although I think AI's role in software development will be normalized, it's fair
 
 ## API  
 Check out: [Quotable](https://github.com/lukePeavey/quotable)  
+
+## Changes ⏰
+Included backup quotes if the API is offline.
