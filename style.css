@@ -1,0 +1,15 @@
+body {
+    background-color: #263485;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-quote {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.font-gen-slim {
+    font-weight: 200;
+}
+

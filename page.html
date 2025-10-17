@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuoteGen - Random Quote Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+    <div class="min-h-screen flex flex-col">
+        <header class="w-full max-w-7xl mx-auto p-6 flex justify-between items-center">
+            <div class="text-3xl">
+                <span class="font-bold">Quote</span><span class="font-gen-slim">Gen</span>
+            </div>
+            <nav>
+                <a href="https://github.com/ahmojunior" target="_blank" rel="noopener noreferrer" class="text-lg hover:underline transition-all duration-200">
+                    GitHub
+                </a>
+            </nav>
+        </header>
+        <main class="flex-grow flex flex-col items-center justify-center text-center px-4">
+            <div class="max-w-4xl">
+                <blockquote id="quote-display" class="font-quote text-4xl md:text-5xl lg:text-6xl transition-opacity duration-500 ease-in-out">
+                    Loading a great quote...
+                </blockquote>
+                <cite id="author-display" class="block mt-4 text-xl md:text-2xl italic opacity-90 transition-opacity duration-500 ease-in-out"></cite>
+            </div>
+            <button id="regenerate-btn" class="mt-12 px-8 py-3 bg-[#263485] text-white font-bold rounded-full shadow-xl border-2 border-white hover:bg-white hover:text-[#263485] focus:outline-none focus:ring-4 focus:ring-blue-300 transition-all duration-300 transform hover:scale-105">
+                Regenerate
+            </button>
+        </main>
+        <footer class="h-20">
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
